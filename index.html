@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Kaikki tilaukset</title>
+</head>
+<body>
+	<main>
+		<!-- Модальне вікно для введення пароля -->
+		<div id="passwordModal" class="modal">
+			<div class="modal-content">
+				<h2>Syötä salasana</h2>
+				<p id="errorMessage" class="error-message"></p>
+				<input type="password" id="passwordInput" placeholder="Salasana">
+				<button onclick="checkPassword()">Vahvista</button>
+			</div>
+		</div>
+
+		<div class="page" id="ordersDashboard">
+			<h1>Kaikki tilaukset</h1>
+			<div class="sort-orders__section">
+				<input id="search-field" type="search" placeholder="Etsi tilaus nimellä" aria-label="Hae tilausta nimen perusteella">
+				<button id="sort_btn" type="submit">Järjestä</button>
+			</div>
+	
+		  <div id="ordersContainer"></div>
+		</div>
+	</main>
+
+  <script src="script.js"></script>
+</body>
+</html>
