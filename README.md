@@ -4,7 +4,7 @@ This is a simple admin dashboard for viewing, sorting, searching, and updating p
 
 ## 🔗 Live Demo
 
-[🌐 View it on GitHub Pages](https://yourusername.github.io/pannukakku-order-client)
+[🌐 View it on GitHub Pages](https://kopiika.github.io/pannukakku-admin/)
 
 ## 🛠️ Technologies
 
