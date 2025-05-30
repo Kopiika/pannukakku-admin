@@ -6,7 +6,7 @@ body{
 	box-sizing: border-box;
 }
 
-/* Модальне вікно */
+/* Modal window */
 .modal {
 	display: flex;
 	justify-content: center;
